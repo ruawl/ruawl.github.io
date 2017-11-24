@@ -1,0 +1,145 @@
+.centralizer {
+	width: 720px;
+    margin-left: 10%;
+    padding: 30px 0;
+    padding-bottom: 80px;
+}
+
+body {
+	font-family: "Crimson Text", "Times New Roman", serif;
+	background-color: bisque;
+	line-height: 1.5;
+}
+
+.mainTitle {
+    font-size: 32px;
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+	text-align: center;
+    text-transform: uppercase;
+	background-color: firebrick;
+	color: bisque;
+	padding: 24px;
+	border-bottom: 6px solid black;
+}
+
+h2 {
+    font-size: 24px;
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+    clear: both;
+}
+
+p {
+	text-align: justify;
+    margin: 20px 0;
+}
+
+main {
+    float: right;
+    width: 85%;
+}
+
+main a {
+	color: #851944;
+}
+
+.mainMenu, .profilePic {
+    float: left;
+    width: 15%;
+    box-sizing: border-box;
+	border-bottom: 6px solid black;
+	border-right: 6px solid black;
+}
+
+.profilePic {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.mainMenu {
+	background-color: firebrick;
+    text-align: center;
+    position: relative;
+    left: 0;
+    top: 200px;
+}
+
+.mainMenu h1, .menuItens a {
+    color: bisque;
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+    
+}
+
+.menuItens li {
+    padding: 8px;
+}
+
+.mainMenu h1 {
+    padding: 8px;
+    margin-bottom: 8px;
+    font-size: 24px;
+    border-bottom: 1px solid black;
+}
+
+.menuItens a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.linksSocialMedia li {
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+.linksSocialMedia a {
+    display: block;
+    margin: 4px;
+    width: 32px;
+    height: 32px;
+    font-size: 0;
+}
+
+.Github {
+    background-image: url(../img/github_icon.png);
+    background-size: contain;
+}
+
+.Twitter {
+    background-image: url(../img/twitter_icon.png);
+    background-size: contain;
+}
+
+.Facebook {
+    background-image: url(../img/facebook_icon.png);
+    background-size: contain;
+}
+
+.Instagram {
+    background-image: url(../img/instagram_icon.png);
+    background-size: contain;
+}
+
+.footFooter {
+    font-size: 16px;
+    background-color: firebrick;
+    color: bisque;
+    padding: 8px;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+	border-top: 6px solid black;
+}
+
+.footFooter a {
+    text-decoration: none;
+    color: bisque;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
