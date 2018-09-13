@@ -172,16 +172,24 @@ body {
     order: 2;
 }
 
+.portfolio li:first-child:hover {
+    transform: scale(1.5);
+}
+
 .portfolio li:nth-child(2) {
     order: 1;
+}
+
+.portfolio li:nth-child(2):hover {
+    transform: scale(1.5) translateX(2.5em) translateY(0.5em);
 }
 
 .portfolio li:last-child {
     order: 3;
 }
 
-.portfolio li:hover {
-    transform: scale(1.25);
+.portfolio li:last-child:hover {
+    transform: scale(1.5) translateX(-2.5em) translateY(0.5em);
 }
 
 .portfolio img {
