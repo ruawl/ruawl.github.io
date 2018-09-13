@@ -1,0 +1,172 @@
+html {
+    font-size: 120%;
+}
+
+body {
+	font-family: "Crimson Text", "Times New Roman", serif;
+	background-color: #F2FFFC;
+	line-height: 1.5;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main {
+    width: calc(100% - 0.9 * 300px);
+}
+
+main a {
+	color: rgba(127, 0, 0, 1);
+}
+
+main a:hover {
+    color: rgba(255, 0, 0, 1);
+    text-shadow: 0 0 .25px red;
+}
+
+.mainTitle {
+    font-size: 3em;
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+	text-align: center;
+    text-transform: uppercase;
+    background-color: rgba(127, 27, 27, 1);
+	color: #FFF;
+    position: relative;
+	padding: .5em;
+	border-bottom: .25rem solid black;
+    text-shadow: 5px 5px black;
+}
+
+.mainContent {
+	width: 65%;
+	margin: auto;
+    padding: 1.5em 0;
+    padding-bottom: 4em;
+    position: relative;
+}
+
+h2 {
+    font-size: 1.5em;
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+    clear: both;
+}
+
+p {
+	text-align: justify;
+    margin: 1em 0;
+}
+
+.linksArea {
+	text-align: center;
+    background-color: rgba(27, 27, 27, 1);
+	color: rgba(127, 127, 127, 1);
+    width: calc(0.9 * 300px);
+    padding-top: calc(300px + 1em);
+}
+
+.linksArea h1 {
+    color: rgba(255, 255, 255, 1);
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+    font-size: 1.5em;
+    margin: .25em 0;
+    text-shadow: 3px 3px black;
+}
+
+.linksArea a:hover,
+.linksArea a:focus {
+	color: rgba(255, 255, 255, 1);
+    text-shadow: 0 0 2px white;
+}
+
+.linksArea, .mainImage {
+    box-sizing: border-box;
+}
+
+.mainImage {
+    width: 300px;
+    position: absolute;
+    top: 0;
+    right: 0;
+	border-left: .25em solid black;
+	border-bottom: .25em solid black;
+}
+
+.links li {
+    padding-bottom: .25em;
+}
+
+.links a {
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+
+.linksSocialMedia li {
+    display: inline-block;
+    padding: .25em .5em;
+}
+
+.linksSocialMedia a {
+    display: block;
+    width: 40px;  /* Melhor jeito? */
+    height: 40px; /* Melhor jeito? */
+    font-size: 0;
+    position: relative;
+}
+
+.Gmail {
+    background-image: url(../img/icon_gmail.png);
+    background-size: contain;
+}
+
+.Github {
+    background-image: url(../img/icon_github.png);
+    background-size: contain;
+}
+
+.Linkedln {
+    background-image: url(../img/icon_linkedln.png);
+    background-size: contain;
+}
+
+.Twitter {
+    background-image: url(../img/icon_twitter.png);
+    background-size: contain;
+}
+
+.Instagram {
+    background-image: url(../img/icon_instagram.png);
+    background-size: contain;
+}
+
+.Facebook {
+    background-image: url(../img/icon_facebook.png);
+    background-size: contain;
+}
+
+.Phone {
+    background-image: url(../img/icons_phone.png);
+    background-size: contain;
+}
+
+.Whatsapp {
+    background-image: url(../img/icons_whatsapp.png);
+    background-size: contain;
+}
+
+#footFooter {
+    width: 100%;
+    padding: .25em 1em;
+    clear: both;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(27, 27, 27, 1);
+	border-top: .1em solid black;
+    text-shadow: 3px 3px rgba(0, 0, 0, 1);;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}

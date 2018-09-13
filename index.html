@@ -1,64 +1,69 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
         <title>Home - Raul Fernandes</title>
-        <link rel="icon" href="img/head_icon5.png">
+        <meta charset="utf-8">
+        <link rel="icon" href="img/icon_webpage.png">
         <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/main.css">
-        <!-- carrega a fonte Open Sans Condensed na versão negrito, -->
-        <!-- que é a única necessária para os cabeçalhos            -->
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
-        <!-- carrega a fonte Crimson Text nas versões normal, itálico e negrito -->
+        <link rel="stylesheet" href="css/site.css">
+        <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Shadows+Into+Light">
     </head>
     
     <body>
+        
+        <header class="mainTitle">
+            <img class="mainPicture" src="img/profile.jpg" alt="Foto de Raul Fernandes">
+            <h1>Raul Fernandes</h1>
+            <h2 class="banner">Bem-vindo!</h2>
+        </header>
+        
+        <div class="linksSocialMedia">
+            <ul>
+                <li><a class="Gmail" href="mailto:raulfelipe2@gmail.com">Gmail</a></li>
+                <li><a class="Github" href="https://github.com/ruawl">Github</a></li>
+                <li><a class="Linkedln" href="https://www.linkedin.com/in/raulkfernandes/">Linkedln</a></li>
+                <li><a class="Facebook" href="https://www.facebook.com/raul.fernandes.585">Facebook</a></li>
+                <li><a class="Twitter" href="https://twitter.com/raulkfernandes">Twitter</a></li>
+                <li><a class="Instagram" href="https://instagram.com/raulkfernandes">Instagram</a></li>
+            </ul>
+        </div>
+        
         <main>
-            <h1 class="mainTitle">Home</h1>
+            <section class="secao-inicio biografia">
+                <h2>Sobre mim</h2>
+                <p><strong>Olá, tudo bem?</strong></p>
+                <p>Me chamo Raul Fernandes, sou desenvolvedor com graduação e mestrado acadêmico pela Universidade Federal da Paraíba (UFPB) realizando pesquisa na área de Engenharia de Software. Meus interesses atuais estão voltados para estudo e trabalho com desenvolvimento de jogos, especialmente utilizando a engine <em>Unity</em>, através da qual tive experiência em alguns cursos e  projetos acadêmicos.</p>
+                <a class="botao-index" href="bio.html">Veja mais sobre mim!</a>
+            </section>
             
-             <aside class="mainMenu">
-                <nav>
-                    <ul class="menuItens">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#">Currículo</a></li>
-                        <li><a href="#">Contato</a></li>
-                        <li><a href="#">Sobre</a></li>
-                    </ul>
-                </nav>
-            </aside>
+            <section class="secao-inicio portfolio">
+                <h2>Trabalhos</h2>
+                <ul>
+                    <li><img src="img/portfolio/climate_projections.png" alt="Projeto Climate Projections"></li>
+                    <li><img src="img/portfolio/zombie_defense.png" alt="Jogo Zombie Defense"></li>
+                    <li><img src="img/portfolio/flappy_plane.png" alt="Jogo Flappy Flight"></li>
+                </ul>
+                <a class="botao-index" href="portfolio.html">Veja mais trabalhos!</a>
+            </section>
+        </main>
+        
+        <footer id="indexFooter">
             
-            <div class="profile">
-                <img class="profilePic" src="img/profile_pic.png" alt="Foto de perfil de Raul Fernandes">
-                
-                <h1 class="profileTitle">Raul Fernandes</h1>
-                
-                <ul class="linksSocialMedia">
-                    <li><a class="Github" href="https://github.com/ruawl"></a></li>
-                    <li><a class="Twitter" href="https://twitter.com/raulkfernandes"></a></li>
-                    <li><a class="Facebook" href="https://www.facebook.com/raul.fernandes.585"></a></li>
-                    <li><a class="Instagram" href="https://www.instagram.com/raulkfernandes/"></a></li>
+            <h2>Entre em contato!</h2>
+            
+            <div>
+                <ul>
+                    <li><a class="Gmail" href="mailto:raulfelipe2@gmail.com">Gmail</a></li>
+                    <li><a class="Phone" href="tel:+5583996685328">Phone</a></li>
+                    <li><a class="Whatsapp" href="https://api.whatsapp.com/send?phone=5583996685328">WhatsApp</a></li>
                 </ul>
             </div>
             
-            <div class="mainContent">
-                
-                <h2>Experiência Acadêmica</h2>
-                
-                <p>Moro em João Pessoa e possuo graduação em Ciência da Computação (2014) e mestrado em Informática na área de Computação Distrbuída (2017), ambos pela Universidade Federal da Paraíba (UFPB).</p>
-                
-                <p>Durante o período acadêmico, participei de pesquisas relacionadas à <em>Interfaces de Usuário</em> voltadas para jogos e ferramentas de ensino-aprendizagem, envolvendo análise de utilização com público-alvo adequado para cada etapa avaliada.</p>
-                
-                <h2>Experiência de Desenvolvimento</h2>
-                
-                <p>Possuo experiência com desenvolvimento aplicações mobile utilizando o motor de jogos <a href="https://unity3d.com/pt">Unity3D</a> na linguagem C#, através dos quais foi possível criar jogos, ferramentas educacionais e interfaces imersivas envolvendo conceitos de <em>Realidade Virtual</em>.</p>
-                
-                <p>Tenho também capacitação em desenvolvimento front-end com HTML5, CSS3 e Javascript, através dos quais consigo criar sites complexos seguindo as principais diretivas de acessibilidade, responsividade e web semântica, sem descuidar da qualidade de código.</p>
-            </div>
-        </main>
-
-        <footer class="footFooter">
-            <strong>&copy; 2017 Raul Fernandes - <a href="mailto:raulfelipe2@gmail.com">Contato</a></strong>
         </footer>
+        
+        <footer id="footFooter">&copy; 2018 Raul Fernandes</footer>
     </body>
 </html>

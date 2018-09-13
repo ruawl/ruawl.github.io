@@ -1,0 +1,117 @@
+.bioQuotes a {
+    text-decoration: none;
+}
+
+.bioQuotes > a p {
+    position: relative;
+    color: rgba(0, 27, 27, 1);
+    font-weight: bold;
+    text-align: center;
+}
+
+.bioQuotes p:hover,
+.bioQuotes p:focus  {
+    color: black;
+    text-shadow: 0 0 .25px black;
+}
+
+cite {
+    float: right;
+    font-style: italic;
+    font-size: 1.25em;
+}
+
+.bioQuotes {
+	background-color: rgba(191, 191, 191, 1);
+	border: .5rem solid rgba(127, 127, 127, 1);
+	width: 35%;
+	box-sizing: border-box;
+    margin: 2.5em 0;
+    padding: .5em;
+    transition: transform 1s;
+}
+
+blockquote:nth-of-type(odd)::before {
+    content: '2014';
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 0.25;
+    color: rgba(127, 127, 127, 1);
+    text-shadow: 1.25px 1.25px #000;
+    position: relative;
+    left: 0%;
+}
+
+blockquote:nth-of-type(even)::before {
+    content: '2017';
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 0.25;
+    color: rgba(127, 127, 127, 1);
+    text-shadow: 1.25px 1.25px #000;
+    position: relative;
+    left: 0%;
+}
+
+blockquote:nth-of-type(odd) {
+    float: right;
+    margin-left: 2em;
+}
+
+blockquote:nth-of-type(odd):hover {
+    transform: scale(1.2) rotate(5deg);
+    transition-delay: 0s, 0.25s;
+}
+
+blockquote:nth-of-type(even) {
+    float: left;
+    margin-right: 2em;
+}
+
+blockquote:nth-of-type(even):hover {
+    transform: scale(1.2) rotate(-5deg);
+    transition-delay: 0s, 0.25s;
+}
+
+.mainContent > p::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    color: rgba(127, 127, 127, 1);
+    text-shadow: 1.4px 1.4px #000;
+    margin-right: .15ch;
+    line-height: 1;
+}
+
+.skillTable {
+    margin: 1em 0;
+    border-collapse: separate;
+    border-spacing: 0.2em;
+}
+
+.skillTable th {
+    padding: 1em;
+    background-color: rgba(127, 27, 27, 1);
+    color: white;
+    font-weight: bold;
+}
+
+.skillTable tbody th {
+    background-color: rgba(27, 27, 27, 1);
+    vertical-align: middle;
+}
+
+.skillTable td {
+    padding: 1em;
+    background-color: #EEE;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.skillTable [colspan] {
+    text-align: center;
+    font-style: italic;
+}
+
+.skillTable [rowspan] {
+    vertical-align: middle;
+}

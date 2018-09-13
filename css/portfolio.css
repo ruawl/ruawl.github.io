@@ -1,0 +1,43 @@
+.mainContent a {
+    font-weight: bold;
+}
+
+.mainContent p {
+    text-align: center;
+    margin: 1.5em 0;
+}
+
+.portfolioLayout p > a {
+    color: rgba(154, 0, 0, 1);
+}
+
+.portfolioLayout p > a:hover {
+    color: red;
+    text-shadow: 0 0 .25px red;
+}
+
+.portfolioLayout {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolioLayout li {
+    text-align: center;
+	background-color: rgba(191, 191, 191, 0.5);
+    box-sizing: border-box;
+    border: .1em solid black;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    padding-bottom: .5em;
+    flex: 1 1 45%;
+}
+
+.portfolioLayout li:first-child {
+    flex-basis: 100%;
+}
+
+.portfolioLayout img {
+    width: 100%;
+    box-shadow: 0 0 5px #000;
+    /* box-shadow: 0 0 0 4px #000, 0 0 0 6px #FFF, 0 0 0 8px #000, 0 0 0 10px #FFF, 0 0 0 12px #000; */
+}
