@@ -173,7 +173,7 @@ body {
 }
 
 .portfolio li:first-child:hover {
-    transform: scale(1.5);
+    transform: scale(1.5) translateY(0.5em);
 }
 
 .portfolio li:nth-child(2) {
