@@ -40,30 +40,6 @@ body {
     font-size: .5em;
 }
 
-.banner {
-    width: 14em;
-    line-height: 1;
-    padding: 1em 0;
-    box-sizing: border-box;
-
-    text-align: center;
-    text-decoration: none;
-    background-color: rgba(0, 15, 15, 1);
-    color: white;
-    border: .15em solid black;
-    
-    position: absolute;
-    top: 0;
-    left: 0;
-    
-    transform-origin: 0 0;
-    transform: rotate(-45deg) translateX(-200px) translateY(100px);
-    
-    animation: fade 1s;
-    animation-delay: 2s;
-    animation-fill-mode: backwards;
-}
-
 @keyframes fade {
     from {
         opacity: 0;
